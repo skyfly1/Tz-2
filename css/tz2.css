@@ -242,7 +242,11 @@ footer  p{
 }
 
 .footer__twitter{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.twitter{
+   margin-bottom: 45px;
 }
 
 .footer__posts{
