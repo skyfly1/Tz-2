@@ -184,6 +184,7 @@ hr{
 footer{
   background: url(../img/Footer.png) no-repeat center center;
   background-size: cover;
+  padding-bottom: 20px;
 }
 
 footer  p{
@@ -263,7 +264,7 @@ footer  p{
 }
 
 .footer__copyright{
-  padding-bottom: 25px;
+  margin-bottom: 0;
   font-size: 1em;
 }
 
