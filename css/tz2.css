@@ -1,0 +1,273 @@
+img{
+  max-width: 100%;
+}
+
+header{
+  background-color: #e4e4e4;
+}
+
+.header__container{
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.navbar-toggle{
+  margin-top: 0px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+  background-color: transparent;
+  color:#4cc5ae;
+  cursor: pointer;
+}
+
+.navbar-nav{
+  text-transform: uppercase;
+  font-size: 1.142em;
+  float: right;
+  font-family: Myriad Pro;
+}
+
+.navbar-nav > li > a{
+  color:#4e4e4e;
+}
+
+.title{
+  font-size: 2.857em;
+  color:#4e4e4e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about{
+  background: url(../img/fon.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.container__about{
+  padding-top: 190px;
+  padding-bottom: 195px;
+}
+
+.about__span{
+  font-size: 2.857em;
+  color:#f3f3f3;
+  font-family: Roboto Slab;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+h1{
+  color:#a8a8a8;
+  font-family: Roboto Slab;
+  font-size: 2.285em;
+  margin-bottom: 45px;
+}
+
+h3{
+  font-family: Roboto Slab;
+  font-size: 1.285em;
+}
+
+.about__button{
+  background-color:#3f8dbf;
+  text-transform: uppercase;
+  color:#e7f1f7;
+  padding: 16px 27px;
+  font-size: 1em;
+  border-color:#3f8dbf;
+  border-radius: 5px;
+}
+
+.journal{
+  background-color: #f7f7f7;
+}
+
+.container__journal{
+  display: flex;
+  text-align: center;
+  padding-top:60px;
+  padding-bottom: 45px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.journal__info{
+  flex-basis: 240px;
+  margin-right: 45px;
+  margin-bottom: 15px;
+}
+
+hr{
+  border:1px solid #dcdcdc;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.service{
+  text-align: left;
+  background-color: #f7f7f7;
+}
+
+.container__service{
+  padding-bottom: 18px;
+}
+
+.text{
+  font-size: 1em;
+  color:#5c5c5c;
+  line-height: 20px;
+  font-family: Roboto;
+}
+
+.service__h3{
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 27px;
+  margin-top: 0;
+}
+
+.service__collection{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service__info{
+  flex-basis: 365px;
+  margin-right: 15px;
+  margin-bottom: 40px
+}
+
+.service__span{
+  font-size: 0.928em;
+  color:#a8a8a8;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.service__text{
+  line-height: 25px;
+}
+
+.features{
+  font-family: Roboto Slab;
+  background-color:#efefef;
+  text-align: center;
+  color:#dcdcdc;
+}
+
+.container__features{
+  padding-top: 55px;
+  padding-bottom: 70px;
+}
+
+.features__quotes{
+  font-size: 7.142em;
+  display:block;
+  font-weight: bold;
+  font-family: Arial Rounded MT;
+  line-height: 50px;
+}
+
+.features__text{
+  font-size: 1.428em;
+  line-height: 33px;
+  width: 70%;
+  margin: 0 auto;
+  color:#a1a1a1;
+  display: block;
+}
+
+footer{
+  background: url(../img/Footer.png) no-repeat center center;
+  background-size: cover;
+}
+
+footer  p{
+  color:#b5b5b5;
+  line-height: 24px;
+  font-size: 1em;
+  font-family: Roboto;
+}
+
+.container__footer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer__info{
+  flex-basis: 270px;
+  margin-right: 14px;
+}
+
+.info{
+  flex-basis: 275px;
+  margin-right: 30px;
+}
+
+.info-1{
+  flex-basis: 218px;
+  margin-right: 55px;
+}
+
+.info-2{
+  flex-basis: 260px;
+  margin-bottom: 53px;
+}
+
+.fa-map-marker,
+.glyphicon-phone-alt,
+.fa-envelope-o,
+.fa-twitter{
+  font-size: 1em;
+  color:#a89574;
+  margin-right: 16px;
+  position: absolute;
+  top:3px;
+}
+
+.footer__h3{
+  color:#6c6c6c;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 35px;
+}
+
+.footer__touch{
+  margin-bottom: 30px;
+}
+
+.footer__twitter{
+  margin-bottom: 50px;
+}
+
+.footer__posts{
+  margin-bottom: 30px;
+}
+
+.footer__about{
+  margin-bottom: 30px;
+}
+
+.footer__hr{
+  border-color:#363636;
+  margin-bottom: 25px;
+}
+
+.footer__copyright{
+  padding-bottom: 25px;
+  font-size: 1em;
+}
+
+.footer__p{
+ position: relative;
+}
+
+.footer__span{
+  margin-left: 30px;
+  display: block;
+}
